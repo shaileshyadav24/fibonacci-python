@@ -8,5 +8,6 @@ def calculateFibonacci(numberTill):
         previousNumber = currentNumber
         currentNumber = sum
 
-
-calculateFibonacci(100)
+t = input("Enter value till to display Fibonacci series: ") 
+  
+calculateFibonacci(int(t))
